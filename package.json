@@ -1,19 +1,28 @@
 {
-  "name": "star-wars-api",
-  "version": "1.0.0",
-  "description": "API do Star Wars que utiliza a SWAPI como base",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anamonteiroo/Star-Wars-API.git"
-  },
-  "author": "Ana Monteiro",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anamonteiroo/Star-Wars-API/issues"
-  },
-  "homepage": "https://github.com/anamonteiroo/Star-Wars-API#readme"
+    "name": "star-wars-api",
+    "version": "1.0.0",
+    "description": "API do Star Wars que utiliza a SWAPI como base",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anamonteiroo/Star-Wars-API.git"
+    },
+    "type": "module",
+    "author": "Ana Monteiro",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/anamonteiroo/Star-Wars-API/issues"
+    },
+    "homepage": "https://github.com/anamonteiroo/Star-Wars-API#readme",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1",
+        "mongoose": "^5.11.15",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.7"
+    }
 }
